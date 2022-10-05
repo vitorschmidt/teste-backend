@@ -1,5 +1,5 @@
 def read_text(filepath: str) -> list[dict]:
-    with open("CNAB.txt", 'r',  encoding="utf-8") as file:
+    with open(filepath, 'r',  encoding="utf-8") as file:
 
             list_data = []
 
@@ -16,7 +16,8 @@ def read_text(filepath: str) -> list[dict]:
                 loja = content[62:81]
 
                 data = (tipo, date, converted_value, cpf, cartao, hora, dono, loja)
-                list_data.append(data)        
+                list_data.append(data)
+                print(f"tipo: {tipo} - data: {date} - valor: {converted_value} - cpf: {cpf} - cartao: {cartao} - hora: {hora} - dono: {dono} - loja: {loja}")        
 
             return list_data
                     
