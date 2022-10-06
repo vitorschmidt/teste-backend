@@ -6,15 +6,15 @@ faça clone do repositório
 
 Abrindo o terminar use o comando:
 
-### pip install -r requirements.txt
+### `pip install -r requirements.txt`
 
 rode as migrations para que a aplicação rode localmente
-### ./manage.py makemigrations
-### ./manage.py migrate
+### `./manage.py makemigrations`
+### `./manage.py migrate`
 
 agora utilize o mesmo terminal para rodar o servidor:
 
-### ./manage.py runserver
+### `./manage.py runserver`
 
 # Enviando um arquivo:
 
