@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 from archive.serializers import FileSerializer
 from .models import Archive
 from rest_framework import generics
